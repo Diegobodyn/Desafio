@@ -32,7 +32,8 @@ public class SwaggerConfig {
 
     private ApiInfo metaInfo() {
 
-        ApiInfo apiInfo = new ApiInfo(
+        @SuppressWarnings("rawtypes")
+		ApiInfo apiInfo = new ApiInfo(
                 "ChavePix  API REST",
                 "API REST de cadastro de ChavePix.",
                 "1.0",

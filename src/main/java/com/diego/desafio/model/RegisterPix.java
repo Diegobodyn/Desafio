@@ -15,13 +15,13 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "TB_REGISTRO_CHAVEPIX")
+@Table(name = "tb_registro_chavepix")
 public class RegisterPix implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
 	@NotBlank(message = "O campo não pode estar em branco")

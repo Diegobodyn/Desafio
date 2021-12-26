@@ -42,7 +42,7 @@ public class RegisterPixResource {
 	public void deletaRegisterPix(@RequestBody RegisterPix registerPix) {
 		registerPixRepository.delete(registerPix);
 	}
-	
+
 	@PutMapping("/registros")
 	public RegisterPix atualizaRegisterPix(@RequestBody RegisterPix registerPix) {
 		return registerPixRepository.save(registerPix);
