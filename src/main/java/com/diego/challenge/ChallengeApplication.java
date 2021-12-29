@@ -1,13 +1,13 @@
-package com.diego.desafio;
+package com.diego.challenge;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DesafioApplication {
+public class ChallengeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DesafioApplication.class, args);
+		SpringApplication.run(ChallengeApplication.class, args);
 	}
 
 }
