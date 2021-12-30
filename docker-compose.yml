@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  mysql_db:
+    image: "mysql:8.0"
+    restart: always
+    ports:
+      - 3390:3306
+    environment:
+      MYSQL_DATABASE: basepix
+      MYSQL_USER: javadev
+      MYSQL_PASSWORD: 123456 
+      MYSQL_ROOT_PASSWORD: 123456

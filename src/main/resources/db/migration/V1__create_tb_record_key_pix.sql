@@ -1,8 +1,8 @@
-CREATE TABLE `tb_registro_chavepix` (
+CREATE TABLE `tb_record_key_pix` (
   `id` bigint(20) NOT NULL auto_increment,
-  `chave_pix` bigint(20) DEFAULT NULL,
-  `nome_banco` varchar(255) DEFAULT NULL,
-  `nome_cliente` varchar(255) DEFAULT NULL,
-  `tipo_de_chave` varchar(255) DEFAULT NULL,
+  `client_name` varchar(255) DEFAULT NULL,
+  `bank_name` varchar(255) DEFAULT NULL,  
+  `key_pix` bigint(20) DEFAULT NULL,
+  `type_of_key` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
 );

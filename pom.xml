@@ -72,8 +72,8 @@
 				<version>2.2.1</version>
 				<configuration>
 					<url>jdbc:mysql://localhost:3390/basepix</url>
-					<user>root</user>
-					<password>root</password>
+					<user>javadev</user>
+					<password>123456</password>
 				</configuration>
 				<dependencies>
 					<dependency>

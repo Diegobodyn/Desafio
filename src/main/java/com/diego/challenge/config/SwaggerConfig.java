@@ -29,7 +29,7 @@ public class SwaggerConfig {
 	private ApiInfo metaInfo() {
 
 		@SuppressWarnings("rawtypes")
-		ApiInfo apiInfo = new ApiInfo("CRUD KeyPix  API REST", "API REST of KeyPix register .", "1.0",
+		ApiInfo apiInfo = new ApiInfo("Challenge CRUD KeyPix  API REST", "API REST of KeyPix register .", "1.0",
 				"Terms of Service",
 				new Contact("Diego Henrique Silva", "https://www.google.com", "diegosilvadhs@gmail.com"),
 				"Apache License Version 2.0", "https://www.apache.org/licesen.html", new ArrayList<VendorExtension>());
